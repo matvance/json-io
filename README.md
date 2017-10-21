@@ -1,3 +1,3 @@
 # json-io 
-Simple Node.js app, which prints all users from JSON database and adds one more at every run
+Simple Node.js app, which prints all users from JSON database and adds one more at every run__
 Prosta aplikacja Node.js, która wypisuje wszystkich użytkowników z bazy danych JSON i dodaje jednego więcej za każdym uruchomieniem
