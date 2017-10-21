@@ -1,0 +1,19 @@
+doctype
+html
+	head
+		title Lorem ipsum index :)
+	body
+		h1 SImple form
+		p costam bleble
+		-
+			var posty = [
+						{autor: 'Jan Kowalski', tresc: 'Lorem ipsum dolor sit amet'},
+						{autor: 'Ania Kowalska', tresc: 'Lorem ipsum dolor Lorem ipsum Lorem ipsum  Lorem ipsum sit amet'},
+						{autor: 'Paweł13', tresc: 'Lorem ipsum dolor sit amet'},
+						]
+		
+		- for(var i = 0; i < posty.length; i++)
+			small= "#" + (i + 1)
+			h4(style={'margin':0})= posty[i].autor
+			p(style={'margin':0, 'padding-left':'15px'})= posty[i].tresc
+			hr
